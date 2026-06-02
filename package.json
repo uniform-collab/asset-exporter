@@ -1,0 +1,9 @@
+{
+  "name": "asset-exporter",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "pull": "node --env-file=.env.local pull_assets.mjs",
+    "push": "node --env-file=.env.local push_assets.mjs"
+  }
+}
